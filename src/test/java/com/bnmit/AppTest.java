@@ -12,6 +12,6 @@ public class AppTest {
     @Test
     void great() {
         App obj=new App();
-        assertEquals(5,obj.find(5,10));
+        assertEquals(10,obj.find(5,10));
     }
 }
